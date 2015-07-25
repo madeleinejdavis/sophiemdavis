@@ -1,0 +1,58 @@
+/*----------------------------------------------------------------------------- 
+=INDEX.HTML  
+-----------------------------------------------------------------------------*/
+body {
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.navbar a:link,
+.navbar a:active,
+.navbar a:visited {
+	color: white;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+
+.navbar a:hover {
+	color: #00FFFF;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+
+.navbar li a:hover,
+.navbar li a:active,
+.navbar li a:link,
+.navbar li a:visited {
+   background-color: transparent;
+}
+
+.dropdown-menu {
+	background-color: transparent;
+	-webkit-background clip: transparent;
+	border: transparent;
+	border-radius: transparent;
+	-webkit-box-shadow: transparent;
+	box-shadow: transparent;
+	color: black;
+	background-clip: transparent;
+}
+
+nav .dropdown-menu li a:hover, 
+nav .dropdown-menu li a:active,
+nav .dropdown-menu li a:link {
+	color: #00FFFF;
+}
+
+.dropdown-menu li a:visited {
+   color: white;
+}
+
+.nav .open a,
+.nav .open a:hover,
+.nav .open a:focus {
+	background-color: transparent;
+}
+
+
+
